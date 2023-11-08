@@ -82,8 +82,8 @@ void displaydata() {
 
     // Convertir las variables float a cadenas (String)
     
-    String strVariable1 = String(latitude); // 2 indica el número de decimales
-    String strVariable2 = String(longitude); // 2 indica el número de decimales
+    String strVariable1 = String(latitude); 
+    String strVariable2 = String(longitude);
     
     Serial.println(strVariable1);
     // building our url according our database
