@@ -104,7 +104,7 @@ void loop() {
     Serial.println(strVariable1);
     // building our url according our database
     String url = "http://localhost/DB/index.php?Datos=" + strVariable1;
-
+    Serial.println(url);
     url += c;
 
     //Print data to the server that a client is connected to
