@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "Galaxy A728164";// SSID, the name of your WiFi connection
-const char* password = "fnrb3300";// password of the WiFi
-const char* host = "192.168.172.211";// IP server, obtained with 'ipconfig' in command shell
+const char* ssid = "";// SSID, the name of your WiFi connection
+const char* password = "";// password of the WiFi
+const char* host = "ipv4 address";// IP server, obtained with 'ipconfig' in command shell
 const int port = 80;// server port, configured in xampp for Apache server, default is: 80
 
 const int watchdog = 5000;// watchdog frequency, reconnect timeout
