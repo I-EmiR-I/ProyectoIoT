@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 
 
-const char* ssid = "IZZI-E4D2";// SSID, the name of your WiFi connection
-const char* password = "4xg559fp";// password of the WiFi
-const char* host = "192.168.1.8";// IP server, obtained with 'ipconfig' in command shell
+const char* ssid = "2";// SSID, the name of your WiFi connection
+const char* password = "";// password of the WiFi
+const char* host = "ipv4 address";// IP server, obtained with 'ipconfig' in command shell
 const int port = 80;// server port, configured in xampp for Apache server, default is: 80
 
 const int watchdog = 5000;// watchdog frequency, reconnect timeout
