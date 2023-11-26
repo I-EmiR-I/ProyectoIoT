@@ -1,11 +1,11 @@
 <?php
-$servername = "puenteacero-server.database.windows.net";
-$username = "admin123";
-$password = "PuenteAcero123!";
-$dbname = "InventariosPuenteAcero";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 try {
-    $conn = new PDO("sqlsrv:server = tcp:puenteacero-server.database.windows.net,1433; Database = InventariosPuenteAcero", $username, $password);
+    $conn = new PDO("connection string", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Verificar si se proporcionaron los parámetros en la URL
