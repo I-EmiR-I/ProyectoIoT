@@ -154,7 +154,7 @@ class InstalacionPortuaria:
         self.capacidad = capacidad
         self.tipo = tipo
 
-        connection_string = 'Driver={ODBC Driver 18 for SQL Server};Server=tcp:puenteacero-server.database.windows.net,1433;Database=InventariosPuenteAcero;Uid=admin123;Pwd=PuenteAcero123!;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
+        connection_string = 'connection string'
         self.db = Db.database(connection_string)
 
     def desplegar_datos(self):
@@ -225,7 +225,7 @@ class VentanaSensores(QDialog):
 class InterfazEmbarcaciones(QMainWindow):
     def __init__(self,puerto=InstalacionPortuaria):
         super().__init__()
-        connection_string = 'Driver={ODBC Driver 18 for SQL Server};Server=tcp:puenteacero-server.database.windows.net,1433;Database=InventariosPuenteAcero;Uid=admin123;Pwd=PuenteAcero123!;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
+        connection_string = ''
         self.db = Db.database(connection_string)
 
         self.setWindowTitle("Gestión de Embarcaciones")
