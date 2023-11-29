@@ -70,11 +70,11 @@ void loop() {
     }
 
     // Convertir las variables float a cadenas (String)
-    String strVariable1 = String(sensorvalue, 2); // 2 indica el número de decimales
+    String strVariable1 = String(sensorvalue); // 2 indica el número de decimales
 
     // building our url according our database
-    String url = "http://localhost/DB/index.php?Datos=" + strVariable1;
-
+    String url = "http://localhost/DB/index.php?movimientoDetectado=" + strVariable1 + "&embarcacionID=1&idSensor=3";;
+    
     url += c;
 
     //Print data to the server that a client is connected to
